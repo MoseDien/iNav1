@@ -11,6 +11,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		611130902F94D18600C1BA4B /* app */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = app;
+			sourceTree = "<group>";
+		};
 		616A90822F94C4E100645E91 /* iNav1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = iNav1;
@@ -37,6 +42,7 @@
 		616A90772F94C4E100645E91 = {
 			isa = PBXGroup;
 			children = (
+				611130902F94D18600C1BA4B /* app */,
 				61E102752F94C981002EE77D /* route */,
 				616A90822F94C4E100645E91 /* iNav1 */,
 				616A90812F94C4E100645E91 /* Products */,
@@ -67,6 +73,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				611130902F94D18600C1BA4B /* app */,
 				616A90822F94C4E100645E91 /* iNav1 */,
 				61E102752F94C981002EE77D /* route */,
 			);
