@@ -7,11 +7,17 @@
 
 import SwiftUI
 
+// MARK: - Root App Entry
+
 @main
-struct iNav1App: App {
+struct MyApp: App {
+    // One router for the whole app (or one per NavigationStack scope)
+    @StateObject private var router = NavigationRouter<Route>()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .environmentObject(router)
         }
     }
 }
